@@ -1,6 +1,13 @@
 import '@/styles/globals.css'
+import "tailwindcss/tailwind.css";
 import type { AppProps } from 'next/app'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+const App = ({ Component }: AppProps) => {
+  return (
+    <div className="bg-purple-50">
+      <Component />
+    </div>
+  );
+};
+
+export default App;
