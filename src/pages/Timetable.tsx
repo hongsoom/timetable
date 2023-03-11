@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import Main from "../../components/main/Main";
+import TableContainer from "../../components/table/TableContainer";
 import { defaultSemester } from "../../components/constant/semeter";
 
 export const MajorContext: React.Context<any> = createContext(null);
@@ -17,7 +17,7 @@ const Timetable = () => {
                         <h1 className="text-2xl md:text-3xl p-3 md:p-5 border-b-2 border-stone-900 mb-5">
                             🗓 시간표 생성기
                         </h1>
-                        <Main />
+                        <TableContainer />
                     </div>
                 </div>
             </SemesterContext.Provider>
