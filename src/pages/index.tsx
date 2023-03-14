@@ -20,7 +20,7 @@ const index = () => {
               alt: "대학교",
             },
           ],
-          site_name: "KAU-Timetable",
+          site_name: "Timetable",
         }}
       />
       <Timetable />
