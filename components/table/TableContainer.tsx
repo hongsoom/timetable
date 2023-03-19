@@ -1,6 +1,7 @@
 import React, { createContext, useState } from 'react';
 import Serach from './Serach';
 import Table from './Table';
+import Basket from './Basket';
 
 const TableContainer = () => {
   return (
@@ -10,7 +11,7 @@ const TableContainer = () => {
         <Table />
       </div>
       <div>
-        <p>장바구니</p>
+        <Basket />
       </div>
     </>
   );
